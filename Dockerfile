@@ -7,6 +7,7 @@ RUN <<EOF
   apt install -y \
     libasound2-dev \
     libudev-dev \
-    mingw-w64
+    mingw-w64 \
+    zip
   rustup target add x86_64-pc-windows-gnu
 EOF
